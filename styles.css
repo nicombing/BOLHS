@@ -9,3 +9,11 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
+.news-item:has(h3 a[href*="podcasts"]) {
+    display: none;
+}
+
+.mobile-menu .sub-menu {
+    display: none;
+}
